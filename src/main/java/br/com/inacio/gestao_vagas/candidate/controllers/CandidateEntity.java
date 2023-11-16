@@ -19,7 +19,7 @@ public class CandidateEntity {
     private String username;
     @Email(message = "O campo (email) precisa conter um email válido")
     private String email;
-    @Length(min = 10, max = 100, message = "A senha deve ter entre 10 e 10 cracteres")
+    @Length(min = 10, max = 100, message = "A senha deve ter entre 10 e 100 cracteres")
     private String password;
     private String description;
     private String curriculum;
