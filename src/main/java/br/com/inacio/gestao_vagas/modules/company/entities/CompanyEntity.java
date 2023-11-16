@@ -15,7 +15,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
 @Entity(name = "company")
-@Data
+static @Data
 public class CompanyEntity {
     
 
