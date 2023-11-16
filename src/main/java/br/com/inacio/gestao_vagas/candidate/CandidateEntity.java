@@ -1,4 +1,4 @@
-package br.com.inacio.gestao_vagas.candidate.controllers;
+package br.com.inacio.gestao_vagas.candidate;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
