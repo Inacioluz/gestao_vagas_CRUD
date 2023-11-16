@@ -1,11 +1,11 @@
-package br.com.inacio.gestao_vagas.candidate.useCases;
+package br.com.inacio.gestao_vagas.modules.candidate.useCases;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.inacio.gestao_vagas.candidate.CandidateEntity;
-import br.com.inacio.gestao_vagas.candidate.CandidateRepository;
-import br.com.inacio.gestao_vagas.exceptions.UserFoundException;
+import br.com.inacio.gestao_vagas.modules.candidate.CandidateEntity;
+import br.com.inacio.gestao_vagas.modules.candidate.CandidateRepository;
+import br.com.inacio.gestao_vagas.modules.candidate.exceptions.UserFoundException;
 
 
 @Service

@@ -1,4 +1,4 @@
-package br.com.inacio.gestao_vagas.candidate.controllers;
+package br.com.inacio.gestao_vagas.modules.candidate.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.inacio.gestao_vagas.candidate.CandidateEntity;
-import br.com.inacio.gestao_vagas.candidate.useCases.CreateCandidateUseCase;
+import br.com.inacio.gestao_vagas.modules.candidate.CandidateEntity;
+import br.com.inacio.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 
 @RestController

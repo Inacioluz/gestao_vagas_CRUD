@@ -1,4 +1,4 @@
-package br.com.inacio.gestao_vagas.exceptions;
+package br.com.inacio.gestao_vagas.modules.candidate.exceptions;
 
 public class UserFoundException extends RuntimeException {
     

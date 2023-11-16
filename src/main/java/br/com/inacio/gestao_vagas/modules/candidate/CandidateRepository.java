@@ -1,4 +1,4 @@
-package br.com.inacio.gestao_vagas.candidate;
+package br.com.inacio.gestao_vagas.modules.candidate;
 
 import java.util.Optional;
 import java.util.UUID;
