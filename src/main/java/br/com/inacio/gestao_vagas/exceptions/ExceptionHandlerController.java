@@ -1,4 +1,4 @@
-package br.com.inacio.gestao_vagas.modules.candidate.exceptions;
+package br.com.inacio.gestao_vagas.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;
