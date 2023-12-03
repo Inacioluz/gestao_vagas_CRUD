@@ -16,7 +16,6 @@ public class CreateCompanyUseCase {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
-
     public CompanyEntity execute(CompanyEntity companyEntity) {
         
 
@@ -25,7 +24,7 @@ public class CreateCompanyUseCase {
         .ifPresent((user) -> {
             throw new UserFoundException();
         });
-
+        
         var password = passwordEncoder.encode(companyEntity.getPassword());
         companyEntity.setPassword(password);
 
